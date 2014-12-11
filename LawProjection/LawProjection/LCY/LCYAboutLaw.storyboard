@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9ME-8e-cPF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="8ez-RZ-qrZ">
+            <objects>
+                <navigationController id="gbV-JD-kC0" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="J2q-nB-Ijc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9ME-8e-cPF" kind="relationship" relationship="rootViewController" id="w76-sV-sfY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T8x-IW-hg5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-324" y="-105"/>
+        </scene>
+        <!--About Law View Controller-->
+        <scene sceneID="Gtp-mv-XGL">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="9ME-8e-cPF" customClass="LCYAboutLawViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3aC-Qo-khD"/>
+                        <viewControllerLayoutGuide type="bottom" id="cS3-bJ-ssh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xzD-7b-j9b">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MAS-0I-Z2h">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="1600"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xyh-jZ-avF">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="754"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ts-Sg-hut">
+                                                <rect key="frame" x="8" y="8" width="584" height="87"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="法率的理念是精准把脉消费者法律需求，以合理价格为个人、中小微企业提供专业高效的法律服务。">
+                                                        <attributes>
+                                                            <color key="NSColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="14" name="STHeitiSC-Light"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="21"/>
+                                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="21"/>
+                                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="法率通过借鉴欧美预付费法律服务市场的成熟经验，充分借助覆盖全国的精选律师网络以及互联网、现代通信等方式，通过电话、网站、移动客户端、微信等多种渠道，高度整合覆盖全国的法律服务优势资源，打造一个专业、创新的在线法律服务平台。">
+                                                        <attributes>
+                                                            <color key="NSColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="14" name="STHeitiSC-Light"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="14" name="STHeitiSC-Light"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="21"/>
+                                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LCYAboutLaw" translatesAutoresizingMaskIntoConstraints="NO" id="QHh-R9-zTU">
+                                                <rect key="frame" x="8" y="106" width="584" height="640"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="640" placeholder="YES" id="Pb9-3R-Jcn"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="QHh-R9-zTU" firstAttribute="leading" secondItem="xyh-jZ-avF" secondAttribute="leading" constant="8" id="3RG-Om-uyf"/>
+                                            <constraint firstItem="0Ts-Sg-hut" firstAttribute="top" secondItem="xyh-jZ-avF" secondAttribute="top" constant="8" id="4XQ-ed-2yy"/>
+                                            <constraint firstItem="0Ts-Sg-hut" firstAttribute="leading" secondItem="xyh-jZ-avF" secondAttribute="leading" constant="8" id="7sE-Sr-2bd"/>
+                                            <constraint firstItem="QHh-R9-zTU" firstAttribute="top" secondItem="0Ts-Sg-hut" secondAttribute="bottom" constant="11" id="Jdi-h8-j1p"/>
+                                            <constraint firstAttribute="trailing" secondItem="0Ts-Sg-hut" secondAttribute="trailing" constant="8" id="fdC-OW-nyF"/>
+                                            <constraint firstAttribute="trailing" secondItem="QHh-R9-zTU" secondAttribute="trailing" constant="8" id="jTb-dG-Ve8"/>
+                                            <constraint firstAttribute="bottom" secondItem="QHh-R9-zTU" secondAttribute="bottom" constant="8" id="zxD-cT-afA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="xyh-jZ-avF" secondAttribute="trailing" id="HVi-p8-ur5"/>
+                                    <constraint firstAttribute="width" secondItem="xyh-jZ-avF" secondAttribute="width" id="WgE-CI-yUQ"/>
+                                    <constraint firstItem="xyh-jZ-avF" firstAttribute="leading" secondItem="MAS-0I-Z2h" secondAttribute="leading" id="mc2-S0-vvx"/>
+                                    <constraint firstAttribute="bottom" secondItem="xyh-jZ-avF" secondAttribute="bottom" id="q3a-xZ-PQt"/>
+                                    <constraint firstItem="xyh-jZ-avF" firstAttribute="top" secondItem="MAS-0I-Z2h" secondAttribute="top" id="wYE-Xr-QdG"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="MAS-0I-Z2h" secondAttribute="trailing" id="Bhf-uq-ipe"/>
+                            <constraint firstItem="MAS-0I-Z2h" firstAttribute="leading" secondItem="xzD-7b-j9b" secondAttribute="leading" id="Tbu-xe-QLV"/>
+                            <constraint firstItem="cS3-bJ-ssh" firstAttribute="top" secondItem="MAS-0I-Z2h" secondAttribute="bottom" id="VQB-QJ-3rj"/>
+                            <constraint firstItem="MAS-0I-Z2h" firstAttribute="top" secondItem="xzD-7b-j9b" secondAttribute="top" id="pAB-mX-GYR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RVY-ce-moe"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Inm-Zz-q42" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="436" y="-126"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LCYAboutLaw" width="320" height="255"/>
+    </resources>
+</document>

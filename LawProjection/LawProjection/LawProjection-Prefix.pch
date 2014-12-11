@@ -1,0 +1,23 @@
+//
+//  LawProjection-Prefix.pch
+//  LawProjection
+//
+//  Created by 周效宇 on 14-9-19.
+//  Copyright (c) 2014年 duostec. All rights reserved.
+//
+
+#ifndef LawProjection_LawProjection_Prefix_pch
+#define LawProjection_LawProjection_Prefix_pch
+#import "ZXY_ColorHeader.h"
+#import "UIViewController+ZXY_VCCategory.h"
+#import "ZXYValues/ZXYValuesHeader.h"
+#import "URLFile/ZXY_APIFiles.h"
+#import "ZXYProvider.h"
+#import "UserInfoDetail.h"
+#import "ZXYValues/Definition.h"
+#import "ZXY_SystemRelative.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define AFNETWORKING_ALLOW_INVALID_SSL_CERTIFICATES
+#endif
