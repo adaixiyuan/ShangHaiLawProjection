@@ -1,0 +1,25 @@
+{
+   "data":
+        [
+    {
+        "statusID":"OS0001",
+        "statusName":"等待付款"
+          },
+    {
+         "statusID":"OS0003",
+         "statusName":"过期未支付"
+         },
+    {
+         "statusID":"OS0004",
+         "statusName":"已取消"
+         },
+    {
+         "statusID":"OS0005",
+         "statusName":"已完成"
+         },
+    {
+         "statusID":"OS0006",
+         "statusName":"订单异常"
+         }
+    ]
+}
